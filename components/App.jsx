@@ -35,9 +35,7 @@ class Body extends React.Component {
   render() {
     return (
       <div className="container">
-        <p> Search ready:</p>
-        <button className="btn btn-primary" type="submit">Random Search<a href="http://en.wikipedia.org/wiki/Special:Random"></a></button>
-
+        <a href="http://en.wikipedia.org/wiki/Special:Random" className="btn btn-info" type="button" target="_blank">Random Search </a>
 
       </div>
     );
